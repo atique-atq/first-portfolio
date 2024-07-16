@@ -150,7 +150,26 @@ main section {
   background: rgb(255, 255, 255);
 }
 
+/* resume styles  */
+.resume-container {
+  display: flex;
+  gap: 30px
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin: 0px;
+  padding: 0px;
+}
+
+.resume-download-button {
+  margin-top: 50px;
+}
+
 /* footer style starts  */
+
 
 footer {
   padding: 130px 230px;
