@@ -12,6 +12,10 @@
     color: #fd6e0b;
 }
 
+.secondary-bg{
+  background-color: rgb(255, 248, 243);
+}
+
 .btn-primary{
     background-color: #fd6e0b;
     border: none;
@@ -21,11 +25,19 @@
 
 }
 
+/* Header Style  */
+.header{
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
 /* navbar style */
 nav {
  display: flex;
  align-items: center;
  justify-content: space-between;
+ margin: 0 200px;
 }
 
 .nav-title{
@@ -42,3 +54,68 @@ nav ul li{
     list-style: none;
     margin-right: 50px;
 }
+
+/* banner style  */
+.banner{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 35px 0px 200px;
+}
+
+.banner-greetings{
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 85px;
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 18px;
+  color: rgb(117, 117, 117);
+}
+
+.banner-profile-pic{
+  width: 580px;
+}
+
+/* banner style ends  */
+
+/* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* about styles starts */
+.about{
+  padding: 130px 150px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.about-items{
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title{
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.item-description{
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
